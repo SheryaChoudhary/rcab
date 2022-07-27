@@ -1,5 +1,5 @@
 # cabwebsite
-Cabs booking history providing website for customer. With customer help section and with Customer Updating Section.
+Cabs booking history providing website for customer. Along with an active chatbot function implemented using FireBase. With customer help section and with Customer Updating Section. 
 ![ridz 1](https://user-images.githubusercontent.com/69459806/181186362-1032f9d0-babc-4487-a998-b2cbbc9451a5.png)
 ![ridz 2](https://user-images.githubusercontent.com/69459806/181186352-9fadb56f-1149-411f-a53f-4ae0616b3f88.png)
 ![ridz 3](https://user-images.githubusercontent.com/69459806/181186340-f33dceaa-316d-4fbc-9cff-fd93776226a6.png)
