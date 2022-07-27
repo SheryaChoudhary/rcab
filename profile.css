@@ -1,0 +1,176 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.747);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 80px 70px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.747);
+    position: fixed;
+    top: 0;
+    width: 102%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+.account-settings .user-profile {
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+    margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+    width: 90px;
+    height: 90px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.account-settings .user-profile h5.user-name {
+    margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555555;
+}
+.account-settings .about {
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+.account-settings .about h5 {
+    margin: 0 0 15px 0;
+    color: green;
+}
+.account-settings .about p {
+    font-size: 20px;
+}
+.form-control {
+    border: 1px solid #cfd1d8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #2e323c;
+}
+
+.card {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 3px;
+      }
+      input, select, textarea {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      }
+      input:hover, select:hover, textarea:hover {
+      outline: none;
+      box-shadow: 0 0 5px 0 #095484;
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+      select {
+      width: 100%;
+      padding: 7px 0;
+      background: transparent;
+      }
+      textarea {
+      width: calc(100% - 2px);
+      padding: 5px;
+      }
+      .item {
+      position: relative;
+      margin: 10px 0;
+      }
+      .item:hover p, .item:hover i {
+      color: #095484;
+      }
+      input:hover, select:hover, textarea:hover {
+      box-shadow: 0 0 5px 0 #095484;
+      }
+      .status:hover input {
+      box-shadow: none;
+      }
+      .status label:hover input {
+      box-shadow: 0 0 5px 0 #095484;
+      }
+      .status-item input, .status-item span {
+      width: auto;
+      vertical-align: middle;
+      }
+      .status-item input {
+      margin: 0;
+      }
+      .status-item span {
+      margin: 0 20px 0 5px;
+      }
+
+      .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+      position: absolute;
+      font-size: 20px;
+      color: #8b8b8b;
+      }
+      .item i {
+      right: 1%;
+      top: 30px;
+      z-index: 1;
+      }
+      [type="date"]::-webkit-calendar-picker-indicator {
+      right: 0;
+      z-index: 2;
+      opacity: 0;
+      cursor: pointer;
+      }
+      @media (min-width: 568px) {
+      .name-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .name-item input {
+      width: calc(50% - 20px);
+      }
+      }

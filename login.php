@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<title>Ridz Login</title>
+
+
+
+    <!-- --------------------------- CSS STYLE SHEET CODE STARTS FROM HERE ----------------------------------------- -->
+
+    <style>
+        body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: visible;
+}
+.container {
+    background: rgba(255, 255, 255, 0.747);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    width: 60rem;
+    height: 39rem;
+    margin-top: 54px;
+}
+#app, #website {
+    background: rgba(255, 255, 255, 0.856);
+}
+#app{
+        width: 19rem; 
+        height: 22rem; 
+        margin: 125px 0px 2px 5px; 
+        padding: 22px 0px 0px 0px;
+}
+#website{
+    width: 19rem; 
+    height: 22rem; 
+    margin: -352px -18px -240px 360px;
+}
+.btn-default {
+    display: block !important;
+    width: 90% !important;
+    padding: 15px 20px !important;
+    text-align: center !important;
+    border: none !important;
+    background: #a29bfe !important;
+    outline: none !important;
+    border-radius: 30px !important;
+    font-size: 1.2rem !important;
+    color: #FFF !important;
+    cursor: pointer !important;
+    transition: .3s !important;
+    margin: 0px 0px -3px 14px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active    {
+    transform: translateY(-5px) !important;
+    background: #6c5ce7 !important;
+}
+#logoimg{
+    width: 213px; 
+    height: 171px; 
+    margin: -26px -26px 4px -23px;
+}
+#logoh3{
+    text-align: right;
+    margin: -128px 12px -14px 1px;
+}
+#appimg{
+    width: 17rem; 
+    height: 13rem; 
+    margin: 57px 0px 0px 11px;
+}
+#webimg{
+    width: 237px; 
+    height: 197px; 
+    margin: 1px -265px -25px 15px;
+}
+.container .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: #9b8ffaf8;
+    outline: none;
+    transition: .3s;
+}
+.container .input-group .dropup .dropup-content button {
+    width: 9rem !important; 
+    margin: 9px -0px 11px 89px !important; 
+    font-size: 13px; 
+    padding: 7px 0px 7px 1px;
+}
+
+  .dropup {
+    position: relative;
+    display: inline-table;
+  }
+  .dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #fdfbfb00;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropup-content a:hover {
+      background-color: #ddd;
+    }
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+
+  </style>
+
+  <!--         -------------------- CSS STYLE SHEET CODE ENDS HERE ----------------------------------------- -->
+
+
+
+
+  <!--        -------------------------------- HTML CODE STARTS FROM HERE ----------------------------------------- -->
+
+</head>
+
+    <body>
+		<div class="container" style="width: 703px; height: 536px;">
+            <div class="site-logo">
+                <img src="images/logo.gif" id="logoimg" alt="Ridz-Website-Logo">
+                <h3 id="logoh3">Hello, Ridz Here!</h3>
+                <button type="button" onclick="window.location.href='index.php';" class="btn btn-default" style="width: 10rem !important; padding: 3px 0px 9px 5px; margin: 20px 9px -111px 439px">Temporary Login Access</button> 
+            </div>
+            <div class="container" id="app">
+                <button type="button" class="btn btn-default">Log On to Ridz App</button>
+                <img src="images/appimg.gif" id="appimg" alt="application-image">
+                <p style="text-align: center; margin-top: -245px;">To book your Ridz Cab! Tap here. </p>
+            </div>
+            <div class="container" id="website">
+                <img src="images/website.gif" id="webimg" alt="website-image">
+                <p style="margin: 19px 1px -13px 3px; text-align: center;">To Check Your Cab Booking History, <br> Contact Ridz or Leave Us a Message <br> Tap here!</p>
+
+                <div class="input-group">
+                  <div class="dropup" style="width: 17rem;">
+                      <button type="button" id="dropbtn" class="btn btn-default" style="width: 254px !important; margin: 25px 0px 0px 10px !important;">Log On to Ridz Web</button>
+
+
+
+                      <div class="dropup-content" style="margin-bottom: 10px;">
+
+                          <input type="tel" id="phone" placeholder="Phone Number" name="Phone Number" required>
+                          <div id="recaptcha-container"></div>
+                          <button type="button" class="btn btn-default" style="width: 10rem; padding: 3px 0px 9px 5px !important;" onclick="phoneAuth();">Get OTP!</button>
+                          <input type="text" id="verificationCode" placeholder="OTP Verification" name="OTP Verification" required>
+                          <button type="button" onclick="codeverify();" class="btn btn-default" style="width: 10rem; padding: 3px 0px 9px 5px !important;">Verification!</button>                                                         
+                                 
+        
+                </div>
+            </div>
+                
+            </div> 
+        </div>
+        </div>
+
+
+        <!-- -------------------------------- HTML CODE ENDS HERE ------------------------------------------------- -->
+
+
+
+
+
+        <!-------------------------------- JAVASCRIPT CODE STARTS FROM HERE ----------------------------------------- -->
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBoYlYD_ZcIX8ISnkHofJ_NGwMutyvLD50",
+    authDomain: "ridzproduction-eefae.firebaseapp.com",
+    databaseURL: "https://ridzproduction-eefae-default-rtdb.firebaseio.com",
+    projectId: "ridzproduction-eefae",
+    storageBucket: "ridzproduction-eefae.appspot.com",
+    messagingSenderId: "566525894617",
+    appId: "1:566525894617:web:7bcc52cde003abcd6a43c8",
+    measurementId: "G-BM11XYXHN3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+
+  <style type="text/css">
+        #gitkitWidgetDiv {width:100%;}
+        input[type="checkbox"] {display:inline-block !important;}
+  </style>
+
+  
+//  ------------------------------ reCaptchaVerifier Code Section -----------------------------------
+
+
+window.onload=function () {
+    render();
+    };
+    
+    function render() {
+    window.recaptchaVerifier=new firebase.auth.RecaptchaVerifier('recaptcha-container');
+    recaptchaVerifier.render();
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="//www.gstatic.com/authtoolkit/js/gitkit.js"></script>
+    <link type="text/css" rel="stylesheet" href="//www.gstatic.com/authtoolkit/css/gitkit.css" />
+    <style type="text/css">
+        #gitkitWidgetDiv {width:100%;}
+        input[type="checkbox"] {display:inline-block !important;}
+    </style>
+   
+<script type="text/javascript">
+  var config = {
+      apiKey: 'AIz**********************',
+      signInSuccessUrl: 'http://ourdomain.com/success.asp',
+      idps: ["google"],
+      oobActionUrl: 'http://ourdomain.com/sendemail.asp',
+      siteName: 'Our site'
+  };
+  // The HTTP POST body should be escaped by the server to prevent XSS
+  window.google.identitytoolkit.start(
+      '#gitkitWidgetDiv', // accepts any CSS selector
+      config,
+      'JAVASCRIPT_ESCAPED_POST_BODY');
+</script>
+
+
+
+
+
+
+
+
+
+
+        <script src="firebase.js" type="text/javascript"></script>
+
+
+        <!--        -------------------------------- JAVASCRIPT CODE ENDS HERE ------------------------------------------------- -->
+
+    </body>    
+</html>
